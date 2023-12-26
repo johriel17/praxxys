@@ -4,7 +4,9 @@
 #now from the terminal go to the root directory of the project and run these commands
 
 composer install
+
 php artisan key:generate
+
 npm install --save-dev create-vite
 
 
@@ -17,6 +19,7 @@ npm install --save-dev create-vite
 #and run these commands on the terminal
 
 php artisan migrate
+
 php artisan storage:link
 
 
