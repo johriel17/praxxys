@@ -162,6 +162,11 @@ onMounted(() => {
                                                     Remove
                                                 </button>
                                             </li>
+                                            <div class="text-sm text-red-600">
+                                                <p v-for="error in form.errors">
+                                                    {{ error }}
+                                                </p>
+                                            </div>
                                         </ul>
                                     </div>
                                 </div>

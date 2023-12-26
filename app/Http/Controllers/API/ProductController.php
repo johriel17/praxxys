@@ -46,6 +46,10 @@ class ProductController extends Controller
             'description' => 'required',
             'date_and_time' => 'required',
             'files.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048', 
+        ],[
+            'files.*.image' => 'file must be an image.',
+            'files.*.mimes' => 'file must be a valid image format (jpeg, png, jpg, gif, svg).',
+            'files.*.max' => 'file must not exceed 2048 kilobytes.',
         ]);
 
         $product = Product::create([
