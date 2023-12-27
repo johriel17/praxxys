@@ -13,6 +13,8 @@ npm install --save-dev create-vite
 
 #open the project and create a . env file then copy the .env.example
 
+# run this command
+
 php artisan key:generate
 
 #then you should have mysql server running I used xampp
