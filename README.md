@@ -9,12 +9,11 @@ note: if you're using xampp as your php for the composer, edit php.ini and enabl
 
 composer install
 
-php artisan key:generate
-
 npm install --save-dev create-vite
 
-
 #open the project and create a . env file then copy the .env.example
+
+php artisan key:generate
 
 #then you should have mysql server running I used xampp
 
