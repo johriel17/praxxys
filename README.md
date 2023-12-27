@@ -13,7 +13,7 @@ npm install --save-dev create-vite
 
 #open the project and create a . env file then copy the .env.example
 
-# run this command
+#run this command
 
 php artisan key:generate
 
