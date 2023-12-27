@@ -1,11 +1,11 @@
 
 #Install the zip file
 
-#now from the terminal go to the root directory of the project and run these commands
-
 #you should have PHP, composer and NodeJs installed
 
 note: if you're using xampp as your php for the composer, edit php.ini and enable the extension=zip
+
+#now from the terminal go to the root directory of the project and run these commands
 
 composer install
 
