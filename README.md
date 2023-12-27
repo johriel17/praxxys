@@ -28,7 +28,7 @@ php artisan migrate
 php artisan storage:link
 
 
-#you can now run the application using the url will show there just copy it and paste to the browser
+#you can now run the application the url will show there just copy it and paste to the browser
 
 php artisan serve
 
@@ -37,7 +37,6 @@ php artisan serve
 npm run dev
 
 #now you can use the application just register and login
-
 
 #run this extra command to populate the products table 
 
