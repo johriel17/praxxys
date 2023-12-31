@@ -161,12 +161,18 @@ onMounted(() => {
                                                 >
                                                     Remove
                                                 </button>
+                                                <div
+                                                    class="text-sm text-red-600"
+                                                >
+                                                    <p>
+                                                        {{
+                                                            form.errors[
+                                                                "files." + index
+                                                            ]
+                                                        }}
+                                                    </p>
+                                                </div>
                                             </li>
-                                            <div class="text-sm text-red-600">
-                                                <p v-for="error in form.errors">
-                                                    {{ error }}
-                                                </p>
-                                            </div>
                                         </ul>
                                     </div>
                                 </div>
